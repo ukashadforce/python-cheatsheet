@@ -3432,6 +3432,7 @@ import plotly.express as px, pandas as pd
 
 ```python
 covid = pd.read_csv('https://raw.githubusercontent.com/owid/covid-19-data/8dde8ca49b'
+covid = pd.read_csv('https://raw.githubusercontent.com/owid/covid-19-data/8dde8ca49b updated
                     '6e648c17dd420b2726ca0779402651/public/data/owid-covid-data.csv',
                     usecols=['iso_code', 'date', 'population', 'total_deaths'])
 continents = pd.read_csv('https://gto76.github.io/python-cheatsheet/web/continents.csv',
